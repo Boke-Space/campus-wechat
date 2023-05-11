@@ -1,0 +1,425 @@
+{
+	"lazyCodeLoading":"requiredComponents",
+	"pages": [
+		{
+			"path": "pages/Home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"component": true
+			}
+		},
+		{
+			"path": "pages/Discover",
+			"enablePullDownRefresh": true,
+			"style": {
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "pages/Forum",
+			"enablePullDownRefresh": true,
+			"style": {
+				"navigationBarTitleText": "校园",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "pages/Mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "pages/Login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Home/Course",
+			"style": {
+				"navigationBarTitleText": "个人课程",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Home/Room",
+			"style": {
+				"navigationBarTitleText": "预约情况",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Home/User",
+			"style": {
+				"navigationBarTitleText": "查询用户",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Home/RoomApply",
+			"style": {
+				"navigationBarTitleText": "课室申请",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Forum/NoteAppend",
+			"style": {
+				"navigationBarTitleText": "发布帖子",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/LostAppend",
+			"style": {
+				"navigationBarTitleText": "失物招领",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/SellAppend",
+			"style": {
+				"navigationBarTitleText": "二手买卖",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/ExpressAppend",
+			"style": {
+				"navigationBarTitleText": "快递代拿",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Lost",
+			"style": {
+				"navigationBarTitleText": "个人发布",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Forum/Note",
+			"style": {
+				"navigationBarTitleText": "",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Forum/Notice",
+			"style": {
+				"navigationBarTitleText": "",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Forum/NoticeDetail",
+			"style": {
+				"navigationBarTitleText": "校园通知",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Sell",
+			"style": {
+				"navigationBarTitleText": "个人发布",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/Lost",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/Sell",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/Express",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/LostDetail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/SellDetail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/ExpressDetail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Discover/SellList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Apply",
+			"style": {
+				"navigationBarTitleText": "个人申请",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/History",
+			"style": {
+				"navigationBarTitleText": "历史记录",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Collect",
+			"style": {
+				"navigationBarTitleText": "收藏列表",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Like",
+			"style": {
+				"navigationBarTitleText": "关注列表",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Friend",
+			"style": {
+				"navigationBarTitleText": "粉丝列表",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Note",
+			"style": {
+				"navigationBarTitleText": "个人帖子",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Chat/ChatDetail",
+			"style": {
+				"navigationBarTitleText": "聊天详情",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Chat/StarMessage",
+			"style": {
+				"navigationBarTitleText": "收藏我的",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Chat/LikeMessage",
+			"style": {
+				"navigationBarTitleText": "收到的赞",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Chat/AttentionMessage",
+			"style": {
+				"navigationBarTitleText": "收到的关注",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Comment",
+			"style": {
+				"navigationBarTitleText": "帖子详情",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/ArticleEdit",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/ApplyEdit",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/NoteEdit",
+			"style": {
+				"navigationBarTitleText": "编辑帖子",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Person",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/UserInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Password",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Chat",
+			"style": {
+				"navigationBarTitleText": "最近联系",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Car",
+			"style": {
+				"navigationBarTitleText": "想要物品",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Mine/Express",
+			"style": {
+				"navigationBarTitleText": "快递代拿",
+				"enablePullDownRefresh": true,
+				"component": true
+			}
+		},
+		{
+			"path": "components/Move",
+			"style": {
+				"navigationBarTitleText": "",
+				"component": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#edf0f2",
+		"backgroundColor": "#edf0f2",
+		"usingComponents": {
+			"van-button": "/wxcomponents/button/index",
+			"van-datetime-picker": "/wxcomponents/datetime-picker/index",
+			"van-area": "/wxcomponents/area/index",
+			"van-checkbox": "/wxcomponents/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/checkbox-group/index",
+			"van-picker": "/wxcomponents/picker/index",
+			"van-cell": "/wxcomponents/cell/index",
+			"van-cell-group": "/wxcomponents/cell-group/index",
+			"van-popup": "/wxcomponents/popup/index",
+			"van-tabs": "/wxcomponents/tabs/index",
+			"van-tab": "/wxcomponents/tab/index",
+			"van-radio": "/wxcomponents/radio/index",
+			"van-radio-group": "/wxcomponents/radio-group/index",
+			"van-tag": "/wxcomponents/tag/index",
+			"van-field": "/wxcomponents/field/index",
+			"van-toast": "/wxcomponents/toast/index",
+			"van-switch": "/wxcomponents/switch/index",
+			"van-divider": "/wxcomponents/divider/index",
+			"van-dialog": "/wxcomponents/dialog/index",
+			"van-swipe-cell": "/wxcomponents/swipe-cell/index",
+			"van-index-bar": "/wxcomponents/index-bar/index",
+			"van-index-anchor": "/wxcomponents/index-anchor/index",
+			"van-loading": "/wxcomponents/loading/index",
+			"van-uploader": "/wxcomponents/uploader/index",
+			"van-image": "/wxcomponents/image/index",
+			"van-icon": "/wxcomponents/icon/index",
+			"van-steps": "/wxcomponents/steps/index",
+			"van-grid": "/wxcomponents/grid/index",
+			"van-grid-item": "/wxcomponents/grid-item/index",
+			"van-calendar": "/wxcomponents/calendar/index",
+			"van-card": "/wxcomponents/card/index",
+			"van-collapse": "/wxcomponents/collapse/index",
+			"van-collapse-item": "/wxcomponents/collapse-item/index",
+			"van-tree-select": "/wxcomponents/tree-select/index",
+			"van-search": "/wxcomponents/search/index",
+			"van-submit-bar": "/wxcomponents/submit-bar/index",
+			"van-stepper": "/wxcomponents/stepper/index"
+		}
+	},
+	"tabBar":{
+		"borderStyle":"black",			//边框颜色
+		"backgroundColor":"#F7F7F7",	//背景颜色
+		"color":"#000000",				//默认颜色
+		"selectedColor":"#1F75FE",		//选中的颜色
+		"list":[
+			{
+				"iconPath":"static/home.png",
+				"selectedIconPath":"static/home.png",
+				"text":"首页",
+				"pagePath":"pages/Home"
+			},
+			{
+				"iconPath":"static/discover.png",
+				"selectedIconPath":"static/discover.png",
+				"text":"发现",
+				"pagePath":"pages/Discover"
+			},
+			{
+				"iconPath":"static/community.png",
+				"selectedIconPath":"static/community.png",
+				"text":"校园",
+				"pagePath":"pages/Forum"
+			},
+			{
+				"iconPath":"static/mine.png",
+				"selectedIconPath":"static/mine.png",
+				"text":"我的",
+				"pagePath":"pages/Mine"
+			}
+		]
+	}
+}
